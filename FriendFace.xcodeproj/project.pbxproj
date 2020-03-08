@@ -15,6 +15,7 @@
 		FE01EBBC24159081008F11B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE01EBBA24159081008F11B4 /* LaunchScreen.storyboard */; };
 		FE01EBC724159081008F11B4 /* FriendFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBC624159081008F11B4 /* FriendFaceTests.swift */; };
 		FE01EBD2241592AB008F11B4 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBD1241592AB008F11B4 /* Friend.swift */; };
+		FE01EBD424159601008F11B4 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBD324159601008F11B4 /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FE01EBC624159081008F11B4 /* FriendFaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFaceTests.swift; sourceTree = "<group>"; };
 		FE01EBC824159081008F11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE01EBD1241592AB008F11B4 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		FE01EBD324159601008F11B4 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				FE01EBB324159080008F11B4 /* ViewController.swift */,
 				FE01EBB524159080008F11B4 /* Main.storyboard */,
 				FE01EBD1241592AB008F11B4 /* Friend.swift */,
+				FE01EBD324159601008F11B4 /* Connection.swift */,
 				FE01EBB824159081008F11B4 /* Assets.xcassets */,
 				FE01EBBA24159081008F11B4 /* LaunchScreen.storyboard */,
 				FE01EBBD24159081008F11B4 /* Info.plist */,
@@ -205,6 +208,7 @@
 			files = (
 				FE01EBB424159080008F11B4 /* ViewController.swift in Sources */,
 				FE01EBB024159080008F11B4 /* AppDelegate.swift in Sources */,
+				FE01EBD424159601008F11B4 /* Connection.swift in Sources */,
 				FE01EBB224159080008F11B4 /* SceneDelegate.swift in Sources */,
 				FE01EBD2241592AB008F11B4 /* Friend.swift in Sources */,
 			);
