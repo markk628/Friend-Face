@@ -16,6 +16,8 @@
 		FE01EBC724159081008F11B4 /* FriendFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBC624159081008F11B4 /* FriendFaceTests.swift */; };
 		FE01EBD2241592AB008F11B4 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBD1241592AB008F11B4 /* Friend.swift */; };
 		FE01EBD424159601008F11B4 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBD324159601008F11B4 /* Connection.swift */; };
+		FE01EBD624186439008F11B4 /* JSONDecoder-remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBD524186439008F11B4 /* JSONDecoder-remote.swift */; };
+		FE01EBD8241868B8008F11B4 /* FriendDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01EBD7241868B8008F11B4 /* FriendDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		FE01EBC824159081008F11B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE01EBD1241592AB008F11B4 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		FE01EBD324159601008F11B4 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		FE01EBD524186439008F11B4 /* JSONDecoder-remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder-remote.swift"; sourceTree = "<group>"; };
+		FE01EBD7241868B8008F11B4 /* FriendDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				FE01EBAF24159080008F11B4 /* AppDelegate.swift */,
 				FE01EBB124159080008F11B4 /* SceneDelegate.swift */,
 				FE01EBB324159080008F11B4 /* ViewController.swift */,
+				FE01EBD524186439008F11B4 /* JSONDecoder-remote.swift */,
+				FE01EBD7241868B8008F11B4 /* FriendDataSource.swift */,
 				FE01EBB524159080008F11B4 /* Main.storyboard */,
 				FE01EBD1241592AB008F11B4 /* Friend.swift */,
 				FE01EBD324159601008F11B4 /* Connection.swift */,
@@ -206,9 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE01EBD624186439008F11B4 /* JSONDecoder-remote.swift in Sources */,
 				FE01EBB424159080008F11B4 /* ViewController.swift in Sources */,
 				FE01EBB024159080008F11B4 /* AppDelegate.swift in Sources */,
 				FE01EBD424159601008F11B4 /* Connection.swift in Sources */,
+				FE01EBD8241868B8008F11B4 /* FriendDataSource.swift in Sources */,
 				FE01EBB224159080008F11B4 /* SceneDelegate.swift in Sources */,
 				FE01EBD2241592AB008F11B4 /* Friend.swift in Sources */,
 			);

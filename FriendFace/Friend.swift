@@ -2,6 +2,7 @@
 //  Friend.swift
 //  FriendFace
 //
+//  Youtube tutorial by Paul Hudson
 //  Created by Mark Kim on 3/8/20.
 //  Copyright © 2020 Mark Kim. All rights reserved.
 //
@@ -20,23 +21,6 @@ struct Friend: Codable{
     let registered: Date
     let tags: [String]
     let friends: [Connection]
-    
-    
-    
-    
-    
-    
-    
-    
-//    51:21
-    
-    
-    
-    
-    
-    
-    
-    
     
     var friendList: String {
         return friends.map { $0.name }.joined(separator: ", ")
